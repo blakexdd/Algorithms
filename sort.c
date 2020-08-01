@@ -8,20 +8,27 @@ void printArray(int *arr, int size);
 void swap(int *a, int *b);
 void insertionSort(int *arr, int size);
 void mergeSort(int *arr, int p, int q);
+void bubbleSort(int *arr, int size);
 void merge(int *arr, int p, int q, int r);
 
 int main( void ){
     int arr[8] = {23, 3, 34, 24, 7, 4, 3, 92};
+    int arr_2[10] = {5, 3, 7, 5, 34, 2, 3, 1, 0, 9};
+    int arr_2_size = sizeof(arr_2) / sizeof(arr_2[0]);
     int arr_size = sizeof(arr) / sizeof(arr[0]);
 
     printf("Initial array: ");
     printArray(arr, arr_size);
+    printArray(arr_2, arr_2_size);
 
     //insertionSort(arr, arr_size);
-    mergeSort(arr, 0, 7);
+    //mergeSort(arr, 0, 7);
+    bubbleSort(arr, arr_size);
+    bubbleSort(arr_2, arr_2_size);
 
     printf("After sorting: ");
     printArray(arr, arr_size);
+    printArray(arr_2, arr_2_size);
 }
 
 void swap(int *a, int *b){
@@ -86,3 +93,11 @@ void mergeSort(int *arr, int p, int r){
     }
 }
 
+void bubbleSort(int *arr, int size){
+    int i, j;
+
+    for (i = 0; i < size; i++)
+        for (j = size - 1; j > i; j--)
+            if (arr[j] < arr[j - 1])
+                swap(&arr[j], &arr[j - 1]);
+}
