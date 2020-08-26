@@ -28,12 +28,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a59e013-6a5e-40c5-9202-b09b25172519" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Coursera/week4/invNumber.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coursera/week4/lottery.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coursera/week4/sorting.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/Book/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coursera/week3/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/week3/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coursera/week3/maxSalary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/week3/maxSalary.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/week5/calculator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/week5/editDistance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/week5/lcs2s.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/week5/lcs3s.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/week5/moneyChange.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <updated>1598037011626</updated>
       <workItem from="1598037012758" duration="23801000" />
       <workItem from="1598298884450" duration="4789000" />
-      <workItem from="1598361699512" duration="18147000" />
+      <workItem from="1598361699512" duration="31480000" />
     </task>
     <servers />
   </component>
@@ -104,5 +104,9 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1598037039332" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1598457803794">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1598457803794" />
   </component>
 </project>
