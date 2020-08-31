@@ -28,12 +28,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a59e013-6a5e-40c5-9202-b09b25172519" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Coursera/week5/calculator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coursera/week5/editDistance.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coursera/week5/lcs2s.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coursera/week5/lcs3s.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coursera/week5/moneyChange.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week4/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week4/clothestPoints.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week6/maxAmount.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week6/placing_parentheses.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week6/souvenirPartition.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/DataStructures/week1/check_brackets.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/DataStructures/week1/header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/DataStructures/week1/max_sliding_window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/DataStructures/week1/process_packages.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/DataStructures/week1/stack_with_max_naive.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coursera/DataStructures/week1/tree-height.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week1/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week1/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week1/fib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week1/fib.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week2/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week2/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week2/fibMod.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week2/fibMod.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week2/gcd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week2/gcd.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week2/lastDigit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week2/lastDigit.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week2/lastDigitRange.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week2/lastDigitRange.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week2/lastDigitSumOfSquares.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week2/lastDigitSumOfSquares.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week2/lcd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week2/lcd.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week2/max_prod.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week2/max_prod.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week3/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week3/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week3/adRevenue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week3/adRevenue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week3/carFueling.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week3/carFueling.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week3/maxNumPrice.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week3/maxNumPrice.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week3/maxSalary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week3/maxSalary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week3/maxValue" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week3/maxValue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week3/maxValue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week3/maxValue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week3/moneyChange.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week3/moneyChange.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week3/signatures.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week3/signatures.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week4/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week4/binarySearch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week4/binarySearch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week4/invNumber.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week4/invNumber.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week4/lottery.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week4/lottery.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week4/majElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week4/majElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week4/sorting.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week4/sorting.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week5/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week5/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week5/calculator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week5/calculator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week5/editDistance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week5/editDistance.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week5/lcs2s.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week5/lcs2s.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week5/lcs3s.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week5/lcs3s.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursera/week5/moneyChange.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Coursera/AlgoToolbox/week5/moneyChange.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,18 +92,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Coursera/week4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Coursera/DataStructures/week1" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Coursera/DataStructures/week1" />
+      <recent name="$PROJECT_DIR$/Coursera/week6" />
       <recent name="$PROJECT_DIR$/Coursera/week4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Coursera/AlgoToolbox" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -80,7 +122,13 @@
       <updated>1598037011626</updated>
       <workItem from="1598037012758" duration="23801000" />
       <workItem from="1598298884450" duration="4789000" />
-      <workItem from="1598361699512" duration="31480000" />
+      <workItem from="1598361699512" duration="35088000" />
+      <workItem from="1598527297589" duration="26236000" />
+      <workItem from="1598639171853" duration="2256000" />
+      <workItem from="1598689310272" duration="368000" />
+      <workItem from="1598727012586" duration="28978000" />
+      <workItem from="1598871710447" duration="2233000" />
+      <workItem from="1598886925932" duration="9226000" />
     </task>
     <servers />
   </component>
@@ -100,6 +148,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598808954075">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1598808954075" />
     <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598037039332">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
