@@ -75,7 +75,8 @@ void max_sliding_window_naive(vector<int> A, int w) {
             while(!rightStack.Empty()){
                 int top = rightStack.Top();
                 rightStack.Pop();
-                leftStack.Push(top);
+           mp
+           leftStack.Push(top);
             }
         }else if (!leftStack.Empty()){
             leftStack.Pop();
