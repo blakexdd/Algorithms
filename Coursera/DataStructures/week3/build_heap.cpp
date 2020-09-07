@@ -29,16 +29,6 @@ class HeapBuilder {
       cin >> data_[i];
   }
 
-  void siftUp(int elemIdx){
-      while (elemIdx / 2 >= 0 && data_[elemIdx] < data_[elemIdx / 2]){
-          swap(data_[elemIdx], data_[elemIdx / 2]);
-          swaps_.push_back(make_pair(elemIdx, elemIdx / 2));
-          elemIdx = elemIdx / 2;
-
-          if (elemIdx == 0)
-              break;
-      }
-  }
   void siftDown(int elemIdx){
       while (elemIdx < data_.size()){
           int left_child = elemIdx * 2 + 1;
@@ -76,27 +66,28 @@ class HeapBuilder {
                   elemIdx = right_child;
               }
           }else{
-              elemIdx = data_.size();
+              break;
           }
       }
   }
 
   void GenerateSwaps() {
     swaps_.clear();
-    // The following naive implementation just sorts 
-    // the given sequence using selection sort algorithm
-    // and saves the resulting sequence of swaps.
-    // This turns the given array into a heap, 
-    // but in the worst case gives a quadratic number of swaps.
-    //
-    // TODO: replace by a more efficient implementation
-    for (int i = data_.size() - 1; i >= data_.size() / 2; i -= 2){
+    for (int i = data_.size() - 1; i > 1;){
         int parent = (i - 1) / 2;
         int left_child = i - 1;
         int right_child = i;
         int swappedIdx = - 1;
 
-        if (data_[parent] < data_[left_child] && data_[parent] > data_[right_child]){
+        if (i == data_.size() - 1 && i % 2 != 0){
+            if (data_[parent] > data_[right_child]){
+                swap(data_[parent], data_[right_child]);
+                swaps_.push_back(make_pair(parent, right_child));
+                i--;
+                continue;
+            }
+        }
+        else if (data_[parent] < data_[left_child] && data_[parent] > data_[right_child]){
             swap(data_[parent], data_[right_child]);
             swaps_.push_back(make_pair(parent, right_child));
             swappedIdx = right_child;
@@ -116,8 +107,8 @@ class HeapBuilder {
             }
         }
 
-        std::cout << "par: " << data_[parent] << " ";
-        siftUp(parent);
+        siftDown(swappedIdx);
+        i -= 2;
     }
   }
 
