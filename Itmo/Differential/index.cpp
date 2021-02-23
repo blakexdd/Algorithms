@@ -110,17 +110,23 @@ double runge_kutta(double x, double y, double h, std::function<double(double, do
     return y + h / 6 * (k1 + 2 * k2 + 2 * k3 + k4);
 }
 
-double predictor(double x, double y, double h, double x_min2, double y_min2, double x_min3, double y_min3, double x_min4, double y_min4, std::function<double(double, double)> func)
+double predictor(double x, double y, double h, double x_min2,
+                 double y_min2, double x_min3, double y_min3,
+                 double x_min4, double y_min4, std::function<double(double, double)> func)
 {
     return y + h / 24 * (55 * func(x, y) - 59 * func(x_min2, y_min2) + 37 * func(x_min3, y_min3) - 9 * func(x_min4, y_min4));
 }
 
-double corrector(double x_plus1, double y_plus1, double h, double x, double y, double x_min1, double y_min1, double x_min2, double y_min2, std::function<double(double, double)> func)
+double corrector(double x_plus1, double y_plus1, double h,
+                 double x, double y, double x_min1, double y_min1,
+                 double x_min2, double y_min2, std::function<double(double, double)> func)
 {
     return y + h / 24 * (9 * func(x_plus1, y_plus1) - 19 * func(x, y) - 5 * func(x_min1, y_min1) + func(x_min2, y_min2));
 }
 
-double adams(double x, double y, double x_min1, double y_min1, double x_min2, double y_min2, double x_min3, double y_min3, double h, std::function<double(double, double)> func)
+double adams(double x, double y, double x_min1, double y_min1,
+             double x_min2, double y_min2, double x_min3, double y_min3,
+             double h, std::function<double(double, double)> func)
 {
     double delta_f = func(x, y) - func(x_min1, y_min1);
     double delta_2f = func(x, y) - 2 * func(x_min1, y_min1) + func(x_min2, y_min2);
@@ -148,7 +154,9 @@ double sequential_approximations(double y0, double y, double x)
            integral([y](double x) -> double { return y * cos(x); }, 0, x, 100);
 }
 
-double sequential_approximation_precision(std::function<double(double, double)> func, std::vector<double> x, std::vector<double> y, double n, double h)
+double sequential_approximation_precision(std::function<double(double, double)> func,
+                                          std::vector<double> x, std::vector<double> y,
+                                          double n, double h)
 {
     double func_max = INT64_MIN;
     double func_der_max = INT64_MIN;
